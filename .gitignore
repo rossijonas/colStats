@@ -1,0 +1,7 @@
+*.vim
+
+# binaries
+wc
+
+# mocks
+.todo.json
