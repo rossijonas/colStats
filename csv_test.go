@@ -44,12 +44,12 @@ func TestOperations(t *testing.T) {
 
 func TestCSV2Float(t *testing.T) {
 	csvData := `IP Address,Requests,Response Time
-	192.168.0.199,2056,236
-	192.168.0.88,899,220
-	192.168.0.199,3054,226
-	192.168.0.100,4133,218
-	192.168.0.199,950,238
-	`
+192.168.0.199,2056,236
+192.168.0.88,899,220
+192.168.0.199,3054,226
+192.168.0.100,4133,218
+192.168.0.199,950,238
+`
 
 	testCases := []struct {
 		name   string
@@ -108,7 +108,9 @@ func TestCSV2Float(t *testing.T) {
 			}
 
 			for i, exp := range tc.exp {
-				t.Errorf("Expected %g, got %g instead", exp, res[i])
+				if res[i] != exp {
+					t.Errorf("Expected %g, got %g instead", exp, res[i])
+				}
 			}
 		})
 	}
