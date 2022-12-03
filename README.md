@@ -39,7 +39,7 @@ Use the `colStats` CLI tool to perform operations like sum or average in specifi
 
 ```
 $ colStats -h
-Usage of ./colStats:
+Usage of colStats:
   -col int
         CSV column on which to execute operation (default 1)
   -op string
