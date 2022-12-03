@@ -1,0 +1,7 @@
+goos: linux
+goarch: amd64
+pkg: github.com/rossijonas/colStats
+cpu: Intel(R) Core(TM) i5-10400F CPU @ 2.90GHz
+BenchmarkRun-12    	      10	 542272752 ns/op
+PASS
+ok  	github.com/rossijonas/colStats	5.927s
