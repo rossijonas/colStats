@@ -5,3 +5,8 @@ wc
 
 # mocks
 .todo.json
+
+# Benchmarks
+bench*.txt
+cpu*.pprof
+trace*.out

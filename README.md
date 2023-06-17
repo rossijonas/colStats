@@ -65,6 +65,7 @@ $ colStats -op avg -col 3 testdata/example.csv testdata/examples2.csv
 ## Backlog
 
 - Add example Gif to README file.
+- Add `Min` and `Max` fucntions which return the lowest and the largest values in a given column. Add tests, write benchmarks and profile the functions.
 
 ## Credits
 
